@@ -10,7 +10,7 @@ The objective of this project is to develop a Neural Network Regression Model th
 
 ## Neural Network Model
 
-![Screenshot (192)](https://github.com/user-attachments/assets/96239300-e19a-424f-86a3-d69fd50f444d)
+![alt text](<../neuralnetwork model.png>)
 
 
 ## DESIGN STEPS
@@ -53,8 +53,8 @@ class NeuralNet(nn.Module):
         self.fc1=nn.Linear(1,8)
         self.fc2=nn.Linear(8,10)
         self.fc3=nn.Linear(10,1)
-        self.relu=nn.ReLU()
-        self.history={'loss':[]}
+        self.relu = nn.ReLU()
+        self.history = {'loss': []}
   def forward(self,x):
     x=self.relu(self.fc1(x))
     x=self.relu(self.fc2(x))
@@ -82,20 +82,15 @@ train_model(ai_brain, X_train_tensor, y_train_tensor, criterion, optimizer)
 ```
 ## Dataset Information
 
-![Screenshot 2025-03-23 120754](https://github.com/user-attachments/assets/db1351fc-588b-4342-8119-f8aabe066cb3)
-
-
+![alt text](../dataset.png)
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
 
-![Screenshot 2025-03-23 120832](https://github.com/user-attachments/assets/2e31db11-d8c1-479b-ade2-dfa2e108893a)
-
+![alt text](../loss.png)
 
 ### New Sample Data Prediction
-
-![Screenshot 2025-03-23 120845](https://github.com/user-attachments/assets/dca03257-0c88-4eff-b789-a4decd61614e)
-
+![alt text](<../predicit output.png>)
 
 ## RESULT
 The neural network regression model was successfully trained and evaluated. The model demonstrated strong predictive performance on unseen data, with a low error rate.
