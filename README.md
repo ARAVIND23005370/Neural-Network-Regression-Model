@@ -10,7 +10,7 @@ The objective of this project is to develop a Neural Network Regression Model th
 
 ## Neural Network Model
 
-![alt text](<../neuralnetwork model.png>)
+![alt text](<neuralnetwork model.png>)
 
 
 ## DESIGN STEPS
@@ -81,16 +81,15 @@ train_model(ai_brain, X_train_tensor, y_train_tensor, criterion, optimizer)
 
 ```
 ## Dataset Information
+![alt text](dataset.png)
 
-![alt text](../dataset.png)
 ## OUTPUT
 
 ### Training Loss Vs Iteration Plot
-
-![alt text](../loss.png)
+![alt text](loss.png)
 
 ### New Sample Data Prediction
-![alt text](<../predicit output.png>)
+![alt text](<predicit output.png>)
 
 ## RESULT
 The neural network regression model was successfully trained and evaluated. The model demonstrated strong predictive performance on unseen data, with a low error rate.
